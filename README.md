@@ -83,3 +83,4 @@ curl -X POST "http://localhost:8000/products/" \
 - [Pydantic](https://pydantic-docs.helpmanual.io/) - Data validation using Python type hints
 - [Uvicorn](https://www.uvicorn.org/) - ASGI server implementation"# fastapi_app" 
 "# fastapi_app" 
+"# fastapi_sample" 
