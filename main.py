@@ -4,6 +4,9 @@ from sqlalchemy.orm import Session
 import database_models
 from database import SessionLocal, engine
 from models import Product
+from fastapi.staticfiles import StaticFiles
+
+app.mount("/", StaticFiles(directory="frontend/dist", html=True), name="frontend")
 
 database_models.Base.metadata.create_all(bind=engine)
 
